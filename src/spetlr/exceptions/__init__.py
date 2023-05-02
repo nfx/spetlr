@@ -55,3 +55,7 @@ class NoSuchValueException(SpetlrKeyError):
 class MissingUpsertJoinColumns(SpetlrKeyError):
     value = "You must specify upsert_join_cols"
     pass
+
+
+class IncorrectSchemaException(SpetlrException):
+    pass
